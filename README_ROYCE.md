@@ -3,3 +3,5 @@
 @email:     royce.whelan@gmail.com
 @purpose:   To practice using Symfony by creating my own blog software
 @url:       http://tutorial.symblog.co.uk/
+
+@test:		modifying for git
