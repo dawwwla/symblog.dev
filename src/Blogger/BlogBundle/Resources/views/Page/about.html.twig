@@ -1,0 +1,43 @@
+{# src/Blogger/BlogBundle/Resources/views/Page/about.html.twig #}
+{% extends 'BloggerBlogBundle::layout.html.twig' %}
+
+{% block title %}
+    About
+{% endblock %}
+
+
+{% block body %}
+	<header>
+        <h1>About symblog</h1>
+	</header>
+	<article>
+		<p>Welcome to my Symfony blog demo!  Thank you for visiting. 
+		This is my first go at a framework based application in Symfony.
+		<br /><br />
+        To get this far I had to do some Virtual hosting in Apache on 
+        my home grown EC2 instance (I started with the most basic Amazon 
+        Linux AMI).  Directing all the incoming ip traffic to the blog 
+        cut me off from phpmyadmin...  That made it time to set up 
+        another virtual host.<br />
+        <br />
+        I'm really liking how direct and simplistic the Twig inheritance
+         system is. Symfony definitely has a strong learning curve, but 
+		I see how developement can become VERY rapid once it gets going.
+		 I also like the cetralized way that routes are set up. CakePHP's
+		 'automagic' is nice, but with Symfony I really feel like I have
+		 a better feel for (and more control of) what's going on under 
+		the hood...</p>
+		
+		<p> &nbsp; -Royce </p>
+		<p>...</p>
+		<p>Donec imperdiet ante sed diam consequat et dictum erat faucibus. Aliquam sit
+        	amet vehicula leo. Morbi urna dui, tempor ac posuere et, rutrum at dui.
+        	Curabitur neque quam, ultricies ut imperdiet id, ornare varius arcu. Ut congue
+        	urna sit amet tellus malesuada nec elementum risus molestie. Donec gravida
+        	tellus sed tortor adipiscing fringilla. Donec nulla mauris, mollis egestas
+        	condimentum laoreet, lacinia vel lorem. Morbi vitae justo sit amet felis
+        	vehicula commodo a placerat lacus. Mauris at est elit, nec vehicula urna. Duis a
+        	lacus nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+        	posuere cubilia Curae.</p>
+	</article>
+{% endblock %}
