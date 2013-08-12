@@ -27,7 +27,7 @@ class PageController extends Controller
         
         $request = $this->getRequest();
         if($request->getMethod() == 'POST'){
-            $form->bindRequest($request);    // At this point  
+            $form->bind($request);    // At this point  
             // the enquiry object now holds a representation of what the user submitted.
             
             if($form->isValid()){
